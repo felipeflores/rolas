@@ -34,7 +34,7 @@ public class Vape extends Thread {
                         } else if  ((count % 21) == 0) {
                             System.out.println("VK_3" );
                             keyExecutor.execute(KeyEvent.VK_3, 300);
-                        } else if  ((count % 25) yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy== 0) {
+                        } else if  ((count % 25) == 0) {
                             System.out.println("VK_4" );
                             keyExecutor.execute(KeyEvent.VK_4, 300);
                         }
